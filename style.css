@@ -5,3 +5,7 @@ body {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-family: 'Poppins', sans-serif;
 }
+
+.custom-width {
+    width: 100px;
+}
