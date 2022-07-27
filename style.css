@@ -5,3 +5,11 @@ body {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-family: 'Poppins', sans-serif;
 }
+
+.color {
+    /* color: rgb(248, 115, 66); */
+    /* color: #078376; */
+    /* color: #4caf50; */
+    color: rgb(49, 48, 48);
+
+}
