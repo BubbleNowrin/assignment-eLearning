@@ -116,10 +116,10 @@
             <h1>Discover Our Popular Courses</h1>
             <p>Explore the Top Courses that we provide</p>
         </div>
-        <div class="row row-cols-md-1 row-cols-lg-2 g-4">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
             <div class="col">
                 <div class="card h-100 border-0">
-                    <div class="d-md-flex align-items-center justify-content-center shadow-lg rounded">
+                    <div class="d-md-flex d-lg-flex align-items-center justify-content-center shadow-lg rounded">
                         <div>
                             <img src="images/course/course-1.png" class="img-fluid card-img-top " alt="...">
                         </div>
@@ -137,7 +137,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 border-0">
-                    <div class="d-md-flex align-items-center justify-content-center shadow-lg rounded">
+                    <div class="d-md-flex d-lg-flex align-items-center justify-content-center shadow-lg rounded">
                         <div>
                             <img src="images/course/course-3.png" class="card-img-top " alt="...">
                         </div>
@@ -155,7 +155,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 border-0">
-                    <div class="d-md-flex align-items-center justify-content-center shadow-lg rounded">
+                    <div class="d-md-flex d-lg-flex align-items-center justify-content-center shadow-lg rounded">
                         <div>
                             <img src="images/course/course-5.png" class="card-img-top " alt="...">
                         </div>
@@ -173,7 +173,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 border-0">
-                    <div class="d-md-flex align-items-center justify-content-center shadow-lg rounded">
+                    <div class="d-md-flex d-lg-flex align-items-center justify-content-center shadow-lg rounded">
                         <div>
                             <img src="images/course/course-2.png" class="card-img-top " alt="...">
                         </div>
@@ -191,7 +191,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 border-0">
-                    <div class="d-md-flex align-items-center justify-content-center shadow-lg rounded">
+                    <div class="d-md-flex d-lg-flex align-items-center justify-content-center shadow-lg rounded">
                         <div>
                             <img src="images/course/course-4.png" class="card-img-top " alt="...">
                         </div>
@@ -209,7 +209,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 border-0">
-                    <div class="d-md-flex align-items-center justify-content-center shadow-lg rounded">
+                    <div class="d-md-flex d-lg-flex align-items-center justify-content-center shadow-lg rounded">
                         <div>
                             <img src="images/course/course-6.png" class="card-img-top " alt="...">
                         </div>
@@ -237,12 +237,12 @@
 
     <!------ Ready to Join Section Starts ------>
     <section class="container w-100 h-100 text-bg-primary mt-5 p-5 rounded">
-        <div class=" d-flex align-items-center">
+        <div class=" d-lg-flex align-items-center">
             <div class="w-100">
                 <h3>Ready To Join?</h3>
                 <p>What are you Waiting for? Join Fast and start working for your dream career. HAPPY LEARNING!</p>
             </div>
-            <div class="w-100 d-flex justify-content-end">
+            <div class="w-100 d-lg-flex justify-content-end">
                 <button type="button" class="btn btn-outline-light px-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">Register Now</button>
                 <!-- Modal -->
@@ -354,7 +354,7 @@
     <!------ Frequently Asked Section Ends------>
 
     <!-- Affiliated Companies Section Starts -->
-    <Section class="container mt-5">
+    <Section class="container mt-5 d-md-none d-none d-lg-block">
         <h1 class="text-center">Trusted by over 800+ companies</h1>
         <div class="d-flex justify-content-between mt-5">
             <img class="img-fluid custom-width " src="images/company/company-1.png" alt="">
@@ -368,16 +368,20 @@
     <!-- Affiliated Companies Section Ends -->
 
     <!-- ---Footer Section Starts--- -->
-    <section class="container-fluid text-bg-dark h-100 mt-5 rounded">
+    <section class="container-fluid text-bg-dark h-100 mt-5 rounded ">
         <div class="mx-5 p-5 text-center ">
             <div>
                 <h1>E-Learning</h1>
                 <address>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</address>
-                <a class="text-decoration-none text-white mx-3" href="#">Privacy Policy</a>
-                <span> | </span>
-                <a class="text-decoration-none text-white mx-3" href="#">Terms of Conditions</a>
+                <div class="d-flex flex-sm-column flex-md-row flex-lg-row justify-content-center">
+                    <a class="text-decoration-none text-white mx-md-3" href="#">Privacy Policy</a>
+                    <span> | </span>
+                    <a class="text-decoration-none text-white mx-md-3" href="#">Contact Us</a>
+                    <span> | </span>
+                    <a class="text-decoration-none text-white mx-md-3" href="#">Terms of Conditions</a>
+                </div>
             </div>
-            <div>
+            <div class="mt-2">
                 <a class="text-decoration-none text-white fs-3 mx-3" href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a class="text-decoration-none text-white fs-3 mx-3" href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a class="text-decoration-none text-white fs-3 mx-3" href="#"><i
